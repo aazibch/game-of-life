@@ -1,0 +1,42 @@
+body {
+  margin: 1rem;
+}
+
+h1.h2 {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.container {
+  width: 802px;
+}
+
+.cell {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #b2b2b2;
+  display: inline-block;
+  margin-top: -1px;
+  margin-left: -1px;
+}
+
+.cell:hover {
+  background: #DCDCDC;
+}
+
+.selected {
+  background: #141414;
+}
+
+.selected:hover {
+  background: #141414;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+#grid {
+  width: 772px;
+  line-height: 0;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,43 @@
+$selected-cell-background: #141414;
+
+body {
+    margin: 1rem;
+}
+
+h1.h2 {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.container {
+    width: 802px;
+}
+
+.cell {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #b2b2b2;
+    display: inline-block;
+    margin-top: -1px;
+    margin-left: -1px;
+
+    &:hover {
+        background: #DCDCDC;
+    }
+}
+
+.selected {
+    background: $selected-cell-background;
+
+    &:hover {
+        background: $selected-cell-background;
+    }
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+#grid {
+    width: 772px;
+    line-height: 0;
+}
